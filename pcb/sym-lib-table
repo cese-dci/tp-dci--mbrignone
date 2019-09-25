@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name integrated_circuit_library)(type Legacy)(uri ${KIPRJMOD}/integrated_circuit_library.lib)(options "")(descr ""))
+)
