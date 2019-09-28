@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L integrated_circuit_library:TP4056 U1
+L battery_charger-rescue:TP4056-integrated_circuit_library U1
 U 1 1 5D886202
 P 4650 3350
 F 0 "U1" H 4650 3865 50  0000 C CNN
@@ -239,7 +239,7 @@ NoConn ~ 1900 3700
 NoConn ~ 1900 3800
 NoConn ~ 2300 4000
 $Comp
-L integrated_circuit_library:FS8205A U3
+L battery_charger-rescue:FS8205A-integrated_circuit_library U3
 U 1 1 5D8AC49A
 P 7300 4450
 F 0 "U3" H 7300 5065 50  0000 C CNN
@@ -250,7 +250,7 @@ F 3 "" H 7300 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L integrated_circuit_library:DW01A U2
+L battery_charger-rescue:DW01A-integrated_circuit_library U2
 U 1 1 5D8B54BB
 P 7300 3300
 F 0 "U2" H 7300 3765 50  0000 C CNN
