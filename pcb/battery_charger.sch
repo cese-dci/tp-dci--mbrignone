@@ -31,7 +31,7 @@ U 1 1 5D887459
 P 3950 3450
 F 0 "R2" V 3850 3400 50  0000 L CNN
 F 1 "1K" V 4050 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3880 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3880 3450 50  0001 C CNN
 F 3 "~" H 3950 3450 50  0001 C CNN
 	1    3950 3450
 	0    1    1    0   
@@ -42,7 +42,7 @@ U 1 1 5D887F8F
 P 3750 3650
 F 0 "R1" V 3850 3600 50  0000 L CNN
 F 1 "1K" V 3650 3600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3680 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3680 3650 50  0001 C CNN
 F 3 "~" H 3750 3650 50  0001 C CNN
 	1    3750 3650
 	0    -1   -1   0   
@@ -53,7 +53,7 @@ U 1 1 5D889695
 P 3200 3650
 F 0 "D1" H 3200 3550 50  0000 C CNN
 F 1 "LED-B" H 3200 3750 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3200 3650 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3200 3650 50  0001 C CNN
 F 3 "~" H 3200 3650 50  0001 C CNN
 	1    3200 3650
 	-1   0    0    1   
@@ -64,7 +64,7 @@ U 1 1 5D8898C7
 P 3500 3450
 F 0 "D2" H 3500 3200 50  0000 C CNN
 F 1 "LED-R" H 3450 3300 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3500 3450 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3500 3450 50  0001 C CNN
 F 3 "~" H 3500 3450 50  0001 C CNN
 	1    3500 3450
 	-1   0    0    1   
@@ -113,7 +113,7 @@ U 1 1 5D8AA0B6
 P 5300 3450
 F 0 "R3" V 5400 3400 50  0000 L CNN
 F 1 "1K" V 5200 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5230 3450 50  0001 C CNN
 F 3 "~" H 5300 3450 50  0001 C CNN
 	1    5300 3450
 	0    -1   -1   0   
@@ -160,30 +160,17 @@ F 3 "" H 2200 4300 50  0001 C CNN
 	1    2200 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5D8D2026
-P 1150 3050
-F 0 "H1" V 1300 3150 50  0000 R CNN
-F 1 "IN+" V 1000 3150 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1150 3050 50  0001 C CNN
-F 3 "~" H 1150 3050 50  0001 C CNN
-	1    1150 3050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1250 3050 1700 3050
 Connection ~ 1700 3050
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Connector_Generic:Conn_01x01 J3
 U 1 1 5D8D6FE3
-P 1150 4150
-F 0 "H2" V 1300 4250 50  0000 R CNN
-F 1 "IN-" V 1000 4250 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1150 4150 50  0001 C CNN
-F 3 "~" H 1150 4150 50  0001 C CNN
-	1    1150 4150
-	0    -1   -1   0   
+P 1050 4150
+F 0 "J3" H 1100 4050 50  0000 R CNN
+F 1 "IN-" H 1100 4250 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 1050 4150 50  0001 C CNN
+F 3 "~" H 1050 4150 50  0001 C CNN
+	1    1050 4150
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1250 4150 2200 4150
@@ -195,7 +182,7 @@ U 1 1 5D8DA42E
 P 2700 3650
 F 0 "C1" H 2750 3750 50  0000 L CNN
 F 1 "0.1uF" H 2750 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2738 3500 50  0001 C CNN
 F 3 "~" H 2700 3650 50  0001 C CNN
 	1    2700 3650
 	1    0    0    -1  
@@ -224,7 +211,7 @@ U 1 1 5D89F5C7
 P 2200 3600
 F 0 "J1" H 2250 4050 50  0000 R CNN
 F 1 "USB_B_Micro" H 2450 3950 50  0000 R CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 2350 3550 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 2350 3550 50  0001 C CNN
 F 3 "~" H 2350 3550 50  0001 C CNN
 	1    2200 3600
 	-1   0    0    -1  
@@ -302,32 +289,10 @@ U 1 1 5D8BA427
 P 6400 3750
 F 0 "R4" H 6250 3750 50  0000 L CNN
 F 1 "1K" H 6450 3750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 3750 50  0001 C CNN
 F 3 "~" H 6400 3750 50  0001 C CNN
 	1    6400 3750
 	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5D8C9BB7
-P 9750 2600
-F 0 "H3" V 9900 2700 50  0000 R CNN
-F 1 "OUT+" V 9600 2700 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 9750 2600 50  0001 C CNN
-F 3 "~" H 9750 2600 50  0001 C CNN
-	1    9750 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5D8CE5A6
-P 9750 3100
-F 0 "H4" V 9900 3200 50  0000 R CNN
-F 1 "BAT+" V 9600 3200 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 9750 3100 50  0001 C CNN
-F 3 "~" H 9750 3100 50  0001 C CNN
-	1    9750 3100
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5050 3050 5600 3050
@@ -341,7 +306,7 @@ U 1 1 5D8CF46F
 P 8700 3100
 F 0 "R5" V 8800 3050 50  0000 L CNN
 F 1 "0.1K" V 8600 3000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 3100 50  0001 C CNN
 F 3 "~" H 8700 3100 50  0001 C CNN
 	1    8700 3100
 	0    -1   -1   0   
@@ -359,21 +324,10 @@ U 1 1 5D8D9ACC
 P 8250 3700
 F 0 "C2" H 8300 3800 50  0000 L CNN
 F 1 "0.1uF" H 8300 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8288 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8288 3550 50  0001 C CNN
 F 3 "~" H 8250 3700 50  0001 C CNN
 	1    8250 3700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 5D8E04E5
-P 9750 4350
-F 0 "H5" V 9900 4450 50  0000 R CNN
-F 1 "BAT-" V 9600 4450 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 9750 4350 50  0001 C CNN
-F 3 "~" H 9750 4350 50  0001 C CNN
-	1    9750 4350
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7650 4350 8000 4350
@@ -408,8 +362,6 @@ Connection ~ 6400 4350
 Wire Wire Line
 	9100 2600 9100 3100
 Connection ~ 9100 2600
-Wire Wire Line
-	9100 2600 9650 2600
 Connection ~ 9100 3100
 Wire Wire Line
 	9100 3100 9650 3100
@@ -423,17 +375,6 @@ F 2 "" H 9100 4050 50  0001 C CNN
 F 3 "" H 9100 4050 50  0001 C CNN
 	1    9100 4050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 5D90B8C3
-P 9750 4900
-F 0 "H6" V 9900 5000 50  0000 R CNN
-F 1 "OUT-" V 9600 5000 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 9750 4900 50  0001 C CNN
-F 3 "~" H 9750 4900 50  0001 C CNN
-	1    9750 4900
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR06
@@ -476,7 +417,7 @@ U 1 1 5D937385
 P 9100 3700
 F 0 "C3" H 9150 3800 50  0000 L CNN
 F 1 "10uF" H 9150 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9138 3550 50  0001 C CNN
 F 3 "~" H 9100 3700 50  0001 C CNN
 	1    9100 3700
 	1    0    0    -1  
@@ -485,4 +426,65 @@ Wire Wire Line
 	9100 3100 9100 3550
 Wire Wire Line
 	9100 3850 9100 4050
+Wire Wire Line
+	1250 3050 1700 3050
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5D8D2026
+P 1050 3050
+F 0 "J2" H 1100 2950 50  0000 R CNN
+F 1 "IN+" H 1100 3150 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 1050 3050 50  0001 C CNN
+F 3 "~" H 1050 3050 50  0001 C CNN
+	1    1050 3050
+	-1   0    0    1   
+$EndComp
+Text Notes 850  3700 0    50   ~ 0
+  Up to 1A \ninput current
+Wire Wire Line
+	9100 2600 9650 2600
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5D991672
+P 9850 2600
+F 0 "J4" H 9900 2500 50  0000 R CNN
+F 1 "OUT+" H 10000 2700 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 2600 50  0001 C CNN
+F 3 "~" H 9850 2600 50  0001 C CNN
+	1    9850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5D99E784
+P 9850 3100
+F 0 "J5" H 9900 3000 50  0000 R CNN
+F 1 "BAT+" H 10000 3200 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 3100 50  0001 C CNN
+F 3 "~" H 9850 3100 50  0001 C CNN
+	1    9850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5D9A02C6
+P 9850 4350
+F 0 "J6" H 9900 4250 50  0000 R CNN
+F 1 "BAT-" H 10000 4450 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 4350 50  0001 C CNN
+F 3 "~" H 9850 4350 50  0001 C CNN
+	1    9850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5D9A3497
+P 9850 4900
+F 0 "J7" H 9900 4800 50  0000 R CNN
+F 1 "OUT-" H 10000 5000 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 4900 50  0001 C CNN
+F 3 "~" H 9850 4900 50  0001 C CNN
+	1    9850 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
