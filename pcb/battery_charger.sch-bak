@@ -167,7 +167,7 @@ U 1 1 5D8D6FE3
 P 1050 4150
 F 0 "J3" H 1100 4050 50  0000 R CNN
 F 1 "IN-" H 1100 4250 50  0000 R CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 4150 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 1050 4150 50  0001 C CNN
 F 3 "~" H 1050 4150 50  0001 C CNN
 	1    1050 4150
 	-1   0    0    1   
@@ -434,7 +434,7 @@ U 1 1 5D8D2026
 P 1050 3050
 F 0 "J2" H 1100 2950 50  0000 R CNN
 F 1 "IN+" H 1100 3150 50  0000 R CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1050 3050 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 1050 3050 50  0001 C CNN
 F 3 "~" H 1050 3050 50  0001 C CNN
 	1    1050 3050
 	-1   0    0    1   
@@ -449,7 +449,7 @@ U 1 1 5D991672
 P 9850 2600
 F 0 "J4" H 9900 2500 50  0000 R CNN
 F 1 "OUT+" H 10000 2700 50  0000 R CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 9850 2600 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 2600 50  0001 C CNN
 F 3 "~" H 9850 2600 50  0001 C CNN
 	1    9850 2600
 	1    0    0    -1  
@@ -460,7 +460,7 @@ U 1 1 5D99E784
 P 9850 3100
 F 0 "J5" H 9900 3000 50  0000 R CNN
 F 1 "BAT+" H 10000 3200 50  0000 R CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 9850 3100 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 3100 50  0001 C CNN
 F 3 "~" H 9850 3100 50  0001 C CNN
 	1    9850 3100
 	1    0    0    -1  
@@ -471,7 +471,7 @@ U 1 1 5D9A02C6
 P 9850 4350
 F 0 "J6" H 9900 4250 50  0000 R CNN
 F 1 "BAT-" H 10000 4450 50  0000 R CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 9850 4350 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 4350 50  0001 C CNN
 F 3 "~" H 9850 4350 50  0001 C CNN
 	1    9850 4350
 	1    0    0    -1  
@@ -482,7 +482,7 @@ U 1 1 5D9A3497
 P 9850 4900
 F 0 "J7" H 9900 4800 50  0000 R CNN
 F 1 "OUT-" H 10000 5000 50  0000 R CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 9850 4900 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 4900 50  0001 C CNN
 F 3 "~" H 9850 4900 50  0001 C CNN
 	1    9850 4900
 	1    0    0    -1  
