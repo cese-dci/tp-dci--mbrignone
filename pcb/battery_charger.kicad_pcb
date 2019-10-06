@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 8)
     (tracks 145)
     (zones 0)
     (modules 20)
@@ -10,6 +10,11 @@
   )
 
   (page A4)
+  (title_block
+    (title "Cargador de Bateria con Proteccion - TP Final DCI")
+    (company "Brignone Matias")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -877,6 +882,30 @@
     )
   )
 
+  (dimension 24.25 (width 0.12) (layer F.SilkS)
+    (gr_text "24,250 mm" (at 144.02 129.375 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 138.75 141.5) (xy 143.336421 141.5)))
+    (feature2 (pts (xy 138.75 117.25) (xy 143.336421 117.25)))
+    (crossbar (pts (xy 142.75 117.25) (xy 142.75 141.5)))
+    (arrow1a (pts (xy 142.75 141.5) (xy 142.163579 140.373496)))
+    (arrow1b (pts (xy 142.75 141.5) (xy 143.336421 140.373496)))
+    (arrow2a (pts (xy 142.75 117.25) (xy 142.163579 118.376504)))
+    (arrow2b (pts (xy 142.75 117.25) (xy 143.336421 118.376504)))
+  )
+  (dimension 36.25 (width 0.12) (layer F.SilkS)
+    (gr_text "36,250 mm" (at 120.625 112.48) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 138.75 117.25) (xy 138.75 113.163579)))
+    (feature2 (pts (xy 102.5 117.25) (xy 102.5 113.163579)))
+    (crossbar (pts (xy 102.5 113.75) (xy 138.75 113.75)))
+    (arrow1a (pts (xy 138.75 113.75) (xy 137.623496 114.336421)))
+    (arrow1b (pts (xy 138.75 113.75) (xy 137.623496 113.163579)))
+    (arrow2a (pts (xy 102.5 113.75) (xy 103.626504 114.336421)))
+    (arrow2b (pts (xy 102.5 113.75) (xy 103.626504 113.163579)))
+  )
   (gr_text "Designed\nin\nArgentina" (at 111 133) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.1)))
   )

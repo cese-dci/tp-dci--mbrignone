@@ -10,6 +10,11 @@
   )
 
   (page A4)
+  (title_block
+    (title "Cargador de Bateria con Proteccion - TP Final DCI")
+    (company "Brignone Matias")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
