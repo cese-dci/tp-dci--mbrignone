@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Cargador de Batería con Protección - TP final DCI"
+Title "Réplica Cargador de Batería con Protección TP4056 - TP DCI"
 Date "2019-09-22"
-Rev "1"
+Rev "G. Gontad"
 Comp "Brignone Matías"
 Comment1 ""
 Comment2 ""
@@ -22,6 +22,7 @@ F 0 "U1" H 4650 3865 50  0000 C CNN
 F 1 "TP4056" H 4650 2850 50  0000 C CNN
 F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 4650 3750 50  0001 C CNN
 F 3 "" H 4650 3750 50  0001 C CNN
+F 4 "Mouser: 453-DIO5158XS8" H 4650 3350 50  0001 C CNN "Other Part #"
 	1    4650 3350
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "R2" V 3850 3400 50  0000 L CNN
 F 1 "1K" V 4050 3400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3880 3450 50  0001 C CNN
 F 3 "~" H 3950 3450 50  0001 C CNN
+F 4 "RPC0805JT1K00TR-ND" V 3950 3450 50  0001 C CNN "Digikey #"
 	1    3950 3450
 	0    1    1    0   
 $EndComp
@@ -44,6 +46,7 @@ F 0 "R1" V 3850 3600 50  0000 L CNN
 F 1 "1K" V 3650 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3680 3650 50  0001 C CNN
 F 3 "~" H 3750 3650 50  0001 C CNN
+F 4 "RPC0805JT1K00TR-ND" V 3750 3650 50  0001 C CNN "Digikey #"
 	1    3750 3650
 	0    -1   -1   0   
 $EndComp
@@ -55,6 +58,7 @@ F 0 "D1" H 3200 3550 50  0000 C CNN
 F 1 "LED-B" H 3200 3750 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 3200 3650 50  0001 C CNN
 F 3 "~" H 3200 3650 50  0001 C CNN
+F 4 "160-1645-2-ND " H 3200 3650 50  0001 C CNN "Digikey #"
 	1    3200 3650
 	-1   0    0    1   
 $EndComp
@@ -66,6 +70,7 @@ F 0 "D2" H 3500 3200 50  0000 C CNN
 F 1 "LED-R" H 3450 3300 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 3500 3450 50  0001 C CNN
 F 3 "~" H 3500 3450 50  0001 C CNN
+F 4 "160-1427-2-ND" H 3500 3450 50  0001 C CNN "Digikey #"
 	1    3500 3450
 	-1   0    0    1   
 $EndComp
@@ -115,6 +120,7 @@ F 0 "R3" V 5400 3400 50  0000 L CNN
 F 1 "1K" V 5200 3400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5230 3450 50  0001 C CNN
 F 3 "~" H 5300 3450 50  0001 C CNN
+F 4 "RPC0805JT1K00TR-ND" V 5300 3450 50  0001 C CNN "Digikey #"
 	1    5300 3450
 	0    -1   -1   0   
 $EndComp
@@ -167,7 +173,7 @@ U 1 1 5D8D6FE3
 P 1050 4150
 F 0 "J3" H 1100 4050 50  0000 R CNN
 F 1 "IN-" H 1100 4250 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 1050 4150 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 1050 4150 50  0001 C CNN
 F 3 "~" H 1050 4150 50  0001 C CNN
 	1    1050 4150
 	-1   0    0    1   
@@ -184,6 +190,7 @@ F 0 "C1" H 2750 3750 50  0000 L CNN
 F 1 "0.1uF" H 2750 3550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2738 3500 50  0001 C CNN
 F 3 "~" H 2700 3650 50  0001 C CNN
+F 4 "399-1169-2-ND " H 2700 3650 50  0001 C CNN "Digikey #"
 	1    2700 3650
 	1    0    0    -1  
 $EndComp
@@ -213,6 +220,7 @@ F 0 "J1" H 2250 4050 50  0000 R CNN
 F 1 "USB_B_Micro" H 2450 3950 50  0000 R CNN
 F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 2350 3550 50  0001 C CNN
 F 3 "~" H 2350 3550 50  0001 C CNN
+F 4 "609-4616-1-ND" H 2200 3600 50  0001 C CNN "Digikey #"
 	1    2200 3600
 	-1   0    0    -1  
 $EndComp
@@ -224,7 +232,6 @@ Connection ~ 2200 4150
 NoConn ~ 1900 3600
 NoConn ~ 1900 3700
 NoConn ~ 1900 3800
-NoConn ~ 2300 4000
 $Comp
 L integrated_circuit_library:FS8205A U3
 U 1 1 5D8AC49A
@@ -233,6 +240,7 @@ F 0 "U3" H 7300 5065 50  0000 C CNN
 F 1 "FS8205A" H 7300 4974 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7300 4950 50  0001 C CNN
 F 3 "" H 7300 4950 50  0001 C CNN
+F 4 "https://www.sunrom.com/p/fs8205a-tssop-8" H 7300 4450 50  0001 C CNN "Other Part #"
 	1    7300 4450
 	1    0    0    -1  
 $EndComp
@@ -244,6 +252,7 @@ F 0 "U2" H 7300 3765 50  0000 C CNN
 F 1 "DW01A" H 7300 3674 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7300 3650 50  0001 C CNN
 F 3 "" H 7300 3650 50  0001 C CNN
+F 4 "https://www.sunrom.com/p/dw01a-sot23-6-lithum-battery-protection-ic" H 7300 3300 50  0001 C CNN "Other Part #"
 	1    7300 3300
 	1    0    0    -1  
 $EndComp
@@ -291,6 +300,7 @@ F 0 "R4" H 6250 3750 50  0000 L CNN
 F 1 "1K" H 6450 3750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 3750 50  0001 C CNN
 F 3 "~" H 6400 3750 50  0001 C CNN
+F 4 "RPC0805JT1K00TR-ND" H 6400 3750 50  0001 C CNN "Digikey #"
 	1    6400 3750
 	1    0    0    -1  
 $EndComp
@@ -305,9 +315,10 @@ L Device:R R5
 U 1 1 5D8CF46F
 P 8700 3100
 F 0 "R5" V 8800 3050 50  0000 L CNN
-F 1 "0.1K" V 8600 3000 50  0000 L CNN
+F 1 "100R" V 8600 3000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 3100 50  0001 C CNN
 F 3 "~" H 8700 3100 50  0001 C CNN
+F 4 "2019-RK73B2ATTD101JTR-ND " H 8700 3100 50  0001 C CNN "Digikey #"
 	1    8700 3100
 	0    -1   -1   0   
 $EndComp
@@ -326,6 +337,7 @@ F 0 "C2" H 8300 3800 50  0000 L CNN
 F 1 "0.1uF" H 8300 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8288 3550 50  0001 C CNN
 F 3 "~" H 8250 3700 50  0001 C CNN
+F 4 "399-1169-2-ND " H 8250 3700 50  0001 C CNN "Digikey #"
 	1    8250 3700
 	1    0    0    -1  
 $EndComp
@@ -399,8 +411,8 @@ Wire Notes Line
 	5900 4850 1450 4850
 Wire Notes Line
 	1450 4850 1450 2350
-Text Notes 3150 2300 0    100  ~ 0
-Battery Charger
+Text Notes 3000 2300 0    100  ~ 0
+Cargador de Batería
 Wire Notes Line
 	6150 2350 9400 2350
 Wire Notes Line
@@ -410,7 +422,7 @@ Wire Notes Line
 Wire Notes Line
 	6150 5550 6150 2350
 Text Notes 7200 2300 0    100  ~ 0
-Battery Protection
+Protección de Batería
 $Comp
 L Device:C C3
 U 1 1 5D937385
@@ -419,6 +431,7 @@ F 0 "C3" H 9150 3800 50  0000 L CNN
 F 1 "10uF" H 9150 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 9138 3550 50  0001 C CNN
 F 3 "~" H 9100 3700 50  0001 C CNN
+F 4 "399-8153-2-ND" H 9100 3700 50  0001 C CNN "Digikey #"
 	1    9100 3700
 	1    0    0    -1  
 $EndComp
@@ -434,13 +447,13 @@ U 1 1 5D8D2026
 P 1050 3050
 F 0 "J2" H 1100 2950 50  0000 R CNN
 F 1 "IN+" H 1100 3150 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 1050 3050 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 1050 3050 50  0001 C CNN
 F 3 "~" H 1050 3050 50  0001 C CNN
 	1    1050 3050
 	-1   0    0    1   
 $EndComp
-Text Notes 850  3700 0    50   ~ 0
-  Up to 1A \ninput current
+Text Notes 600  3500 0    50   ~ 0
+Corriente de entrada \n   de hasta 1A
 Wire Wire Line
 	9100 2600 9650 2600
 $Comp
@@ -449,7 +462,7 @@ U 1 1 5D991672
 P 9850 2600
 F 0 "J4" H 9900 2500 50  0000 R CNN
 F 1 "OUT+" H 10000 2700 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 2600 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 9850 2600 50  0001 C CNN
 F 3 "~" H 9850 2600 50  0001 C CNN
 	1    9850 2600
 	1    0    0    -1  
@@ -460,7 +473,7 @@ U 1 1 5D99E784
 P 9850 3100
 F 0 "J5" H 9900 3000 50  0000 R CNN
 F 1 "BAT+" H 10000 3200 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 3100 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 9850 3100 50  0001 C CNN
 F 3 "~" H 9850 3100 50  0001 C CNN
 	1    9850 3100
 	1    0    0    -1  
@@ -471,7 +484,7 @@ U 1 1 5D9A02C6
 P 9850 4350
 F 0 "J6" H 9900 4250 50  0000 R CNN
 F 1 "BAT-" H 10000 4450 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 4350 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 9850 4350 50  0001 C CNN
 F 3 "~" H 9850 4350 50  0001 C CNN
 	1    9850 4350
 	1    0    0    -1  
@@ -482,9 +495,17 @@ U 1 1 5D9A3497
 P 9850 4900
 F 0 "J7" H 9900 4800 50  0000 R CNN
 F 1 "OUT-" H 10000 5000 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 9850 4900 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 9850 4900 50  0001 C CNN
 F 3 "~" H 9850 4900 50  0001 C CNN
 	1    9850 4900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2300 4000 2300 4150
+Wire Wire Line
+	2300 4150 2200 4150
+Text Notes 650  3800 0    50   ~ 0
+Tensión de entrada\n    4.5V-5.5V
+Text Notes 2850 5200 0    79   ~ 0
+Precisión de carga: 1.5%\nTensión de plena carga: 4.2V
 $EndSCHEMATC
