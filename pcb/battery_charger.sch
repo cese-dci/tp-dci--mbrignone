@@ -508,4 +508,15 @@ Text Notes 650  3800 0    50   ~ 0
 Tensión de entrada\n    4.5V-5.5V
 Text Notes 2850 5200 0    79   ~ 0
 Precisión de carga: 1.5%\nTensión de plena carga: 4.2V
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5DB52B46
+P 1750 5050
+F 0 "FID1" H 1835 5096 50  0000 L CNN
+F 1 "Fiducial" H 1835 5005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1750 5050 50  0001 C CNN
+F 3 "~" H 1750 5050 50  0001 C CNN
+	1    1750 5050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
