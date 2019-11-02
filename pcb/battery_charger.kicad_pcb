@@ -13,8 +13,10 @@
   (title_block
     (title "Réplica Cargador de Batería con Protección TP4056 - TP DCI")
     (date 2019-10-19)
-    (rev "G. Gontad")
+    (rev 1.0)
     (company "Brignone Matias")
+    (comment 1 "Revisado por docente Diego Brengi")
+    (comment 2 "Revisado por compañero Gonzalo Gontad")
   )
 
   (layers
@@ -943,8 +945,8 @@
     (arrow2a (pts (xy 102.5 115.5) (xy 103.626504 116.086421)))
     (arrow2b (pts (xy 102.5 115.5) (xy 103.626504 114.913579)))
   )
-  (gr_text "Rev. 1" (at 106.75 120.5) (layer F.SilkS)
-    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  (gr_text "Rev. 1" (at 107.25 120.75) (layer F.SilkS)
+    (effects (font (size 0.9 0.9) (thickness 0.15)))
   )
   (gr_text "Ind. Arg." (at 119.5 133) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))

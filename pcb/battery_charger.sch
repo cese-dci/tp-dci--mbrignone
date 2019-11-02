@@ -7,10 +7,10 @@ encoding utf-8
 Sheet 1 1
 Title "Réplica Cargador de Batería con Protección TP4056 - TP DCI"
 Date "2019-09-22"
-Rev "G. Gontad"
+Rev "1.0"
 Comp "Brignone Matías"
-Comment1 ""
-Comment2 ""
+Comment1 "Revisado por docente Diego Brengi"
+Comment2 "Revisado por compañero Gonzalo Gontad"
 Comment3 ""
 Comment4 ""
 $EndDescr
